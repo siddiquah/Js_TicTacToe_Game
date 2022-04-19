@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="startingPage">
+            <h2>Tic Tac Toe</h2>
+            <div id="line"></div>
+            <h4>Select which you want to be?</h4>
+            <div id="button">
+                <button id="playerX" class="choose">Player ( X )</button>
+                <button id="playerO" class="choose">Player ( O )</button>
+            </div>
+        </div>
+
+        <div id="mainPage">
+            <div id="headerBtns">
+                <button id="">X Turn</button>
+                <button id="O_Turn">O Turn</button>
+                <div id="showChange"></div>
+            </div>
+            <div id="gameBoard">
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div class="boxes"></div>
+            </div>
+        </div>
+
+        <div id="winner">
+            <h2 id="winnerName">Player X won the game</h2>
+            <div id="button">
+                <button id="quit">Play again</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/e80646ae69.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
